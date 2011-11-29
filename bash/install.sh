@@ -4,6 +4,7 @@
 
 #set -x 
 
+
 FILES="vimrc bashrc" 
 for fil in $FILES 
 do 

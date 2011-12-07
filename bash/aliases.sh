@@ -32,5 +32,6 @@ alias j='jobs -l'
 alias hub="export GIT_CONFIG=/home/kishore/github/.gitconfig"
 
 # Make pretty
-alias gl="git  log --graph --decorate=full --pretty=format:\"%Cgreen%ae %Cblue %cr %Cred%s\" --abbrev-commit --name-only"
+alias gl="git  log --graph --decorate=full --pretty=format:'%Cgreen%ae %Cblue %cr %Cred%s' --abbrev-commit --name-only"
 
+alias pup='cd /home/kishore/Downloads/clone/puppet/manifests/production/profileapp'

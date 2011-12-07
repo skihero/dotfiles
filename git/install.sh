@@ -11,7 +11,7 @@ mkdir ~/github/
 
 for fil in $FILES 
 do 
-	cp -v  ${fil} ~/github/gitconfig  # It is okay if this doesn't succeed 
+	cp -vf  ${fil} ~/github/gitconfig  # It is okay if this doesn't succeed 
 
 done 
 

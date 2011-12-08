@@ -36,3 +36,5 @@ alias gl="git  log --graph --decorate=full --pretty=format:'%Cgreen%ae %Cblue %c
 
 alias pup='cd /home/kishore/Downloads/clone/puppet/manifests/production/profileapp'
 alias gp='git pull && echo code pull done|espeak'
+alias gist='python -c "import webbrowser; webbrowser.open(\"https://gist.github.com/\")"'
+

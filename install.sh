@@ -8,7 +8,7 @@ for fil in `ls -p |grep /`    # Unholy
 do
 	echo "Running install for $fil "
 	cd $fil
-	./"install.sh"       
+	./"install.shs"       
 	cd ..
 done 
 

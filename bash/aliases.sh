@@ -29,7 +29,7 @@ cd ~
 
 alias j='jobs -l'
 
-alias hub="export GIT_CONFIG=/home/${USER}/github/gitconfig"
+alias hub="export GIT_CONFIG=~/github/gitconfig"
 
 # Make pretty
 alias gl="git  log --graph --decorate=full --pretty=format:'%Cgreen%ae %Cblue %cr %Cred%s' --abbrev-commit --name-only"

@@ -38,4 +38,6 @@ alias pup='cd /home/kishore/Downloads/clone/puppet/manifests/production/profilea
 alias gp='git pull && echo code pull done|espeak'
 alias gist='python -c "import webbrowser; webbrowser.open(\"https://gist.github.com/\")"'
 alias caps='loadkeys dvorak' # change the file /lib/kbd/keymaps/i386/dvorak/dvorak.map.GZ 
+alias modmap='xmodmap ~/.xmodmap' 
 alias brightlow='sudo pkexec gnome-power-backlight-helper  --set-brightness 0'
+alias tl=' tail -f /var/log/messages &'

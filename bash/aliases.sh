@@ -41,3 +41,4 @@ alias caps='loadkeys dvorak' # change the file /lib/kbd/keymaps/i386/dvorak/dvor
 alias modmap='xmodmap ~/.xmodmap' 
 alias brightlow='sudo pkexec gnome-power-backlight-helper  --set-brightness 0'
 alias tl=' tail -f /var/log/messages &'
+alias dateup=' sudo ntpdate  0.pool.ntp.org'

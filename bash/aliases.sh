@@ -42,4 +42,5 @@ alias modmap='xmodmap ~/.xmodmap'
 alias brightlow='sudo pkexec gnome-power-backlight-helper  --set-brightness 0'
 alias tl=' tail -f /var/log/messages &'
 alias dateup=' sudo ntpdate  0.pool.ntp.org'
+alias ug="git reset --soft HEAD^"   # undo a commit perhaps  
 

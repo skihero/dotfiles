@@ -1,4 +1,7 @@
 # Cust functions
+function ainstall(){ 
+sudo apt-get -y install $1 
+}
 
 function yinstall(){
 sudo yum -y install $1

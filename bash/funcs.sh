@@ -1,4 +1,9 @@
 # Cust functions
+function dg(){
+dig +nocmd $1 +noall +answer
+
+}
+
 function ainstall(){ 
 sudo apt-get -y install $1 
 }

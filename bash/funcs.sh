@@ -28,3 +28,6 @@ function eph {
 date -d @${*}
 }
 
+function bk { 
+cp -v $1 ${1}_${RANDOM}.bk
+}

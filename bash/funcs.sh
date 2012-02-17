@@ -29,5 +29,5 @@ date -d @${*}
 }
 
 function bk { 
-cp -v $1 ${1}_${RANDOM}.bk
+sudo cp -v $1 ${1}_${RANDOM}.bk
 }

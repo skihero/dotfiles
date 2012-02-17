@@ -20,6 +20,7 @@ alias h='fc -l'
 set -o emacs
 
 export HISTCONTROL=ignoreboth
+export EDITOR="vi"
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'

@@ -20,7 +20,6 @@ function gm {
 git status |grep modified |awk '{print  "± " $3}'
 echo  ""
 git status |grep deleted | awk '{print  "✗ " $3}'
-
 }
 
 # Convert epoch to  human date 

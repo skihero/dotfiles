@@ -2,3 +2,4 @@
 set nu
 set hlsearch 
 set showmatch
+set bg=dark

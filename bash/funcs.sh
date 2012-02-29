@@ -32,7 +32,7 @@ sudo cp -v $1 ${1}_${RANDOM}.bk
 }
 
 # Serve the current dir 
-function servethis{ 
+function servethis { 
 ifconfig 
 python -m SimpleHTTPServer &
 }

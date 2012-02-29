@@ -30,3 +30,12 @@ date -d @${*}
 function bk { 
 sudo cp -v $1 ${1}_${RANDOM}.bk
 }
+
+# Serve the current dir 
+function servethis{ 
+ifconfig 
+python -m SimpleHTTPServer &
+}
+
+
+

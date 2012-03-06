@@ -37,5 +37,9 @@ ifconfig
 python -m SimpleHTTPServer &
 }
 
+#kill pup
+function pupkill { 
+kill `ps -ef |grep puppetmasterd|grep -v grep |awk '{print $2}'`
+}
 
 

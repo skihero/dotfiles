@@ -16,3 +16,8 @@ nmap <leader>w :w!<cr>
 nmap <leader>ww :wq!<cr>
 nmap <leader>q :q!<cr>
 
+" Tab configuration
+map <leader>tn :tabnew<cr>
+map <leader>te :tabedit
+map <leader>tc :tabclose<cr>
+map <leader>tm :tabmove

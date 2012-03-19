@@ -12,6 +12,7 @@ vmap ,nd !boxes -d dog -r<CR>
 
 "viFu 
 "
+let mapleader=","
 nmap <leader>w :w!<cr>
 nmap <leader>ww :wq!<cr>
 nmap <leader>q :q!<cr>

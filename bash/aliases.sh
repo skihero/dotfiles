@@ -1,6 +1,7 @@
 
 alias man8="cd /usr/share/man/man8"
-export PS1='[\u@\h \w]\$ '
+#export PS1='[\u@\h \w]\$ '   
+#Sabayon's default is better 
 
 alias vi="vim"
 alias ll="ls -la"

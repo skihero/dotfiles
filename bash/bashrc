@@ -1,6 +1,12 @@
 # .bashrc
 
 # Source global definitions
+# TODO: this doesn't work for sabayon 
+# sabayon file is /etc/bash/bashrc 
+if [ -f /etc/bash/bashrc ]; then 
+   . /etc/bash/bashrc 
+fi 
+
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi

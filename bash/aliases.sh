@@ -25,7 +25,7 @@ export EDITOR="vi"
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias t='tree -Ch'
+alias t='tree -Ch && echo tree |espeak'
 
 cd ~
 
@@ -46,3 +46,4 @@ alias tl=' tail -f /var/log/messages &'
 alias dateup=' sudo ntpdate  0.pool.ntp.org'
 alias ug="git reset --soft HEAD^"   # undo a commit perhaps  
 
+alias xterm="xterm -fg white -bg Black"

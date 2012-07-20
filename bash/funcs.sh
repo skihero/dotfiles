@@ -42,4 +42,9 @@ function pupkill {
 kill `ps -ef |grep puppetmasterd|grep -v grep |awk '{print $2}'`
 }
 
+function crusader { 
+
+cd "${HOME}/.wine/drive_c/Program Files/Firefly Studios/Stronghold Crusader"
+wine Stronghold\ Crusader.exe
+} 
 

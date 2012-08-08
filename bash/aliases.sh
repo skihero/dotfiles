@@ -47,3 +47,5 @@ alias dateup=' sudo ntpdate  0.pool.ntp.org'
 alias ug="git reset --soft HEAD^"   # undo a commit perhaps  
 
 alias xterm="xterm -fg white -bg Black"
+
+alias 'ps?'='ps ax | grep '

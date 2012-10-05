@@ -28,6 +28,7 @@ alias ....='cd ../../..'
 alias t='tree -Ch && echo tree |espeak'
 
 cd ~
+cat /etc/motd
 
 alias j='jobs -l'
 

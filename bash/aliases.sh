@@ -50,3 +50,5 @@ alias ug="git reset --soft HEAD^"   # undo a commit perhaps
 alias xterm="xterm -fg white -bg Black"
 
 alias 'ps?'='ps ax | grep '
+alias  war='nohup VBoxHeadless  -s battlefield2 &'
+alias battle='ssh root@localhost -p 2222'

@@ -1,3 +1,4 @@
+# Some of my favorite accelerators. 
 
 alias man8="cd /usr/share/man/man8"
 #export PS1='[\u@\h \w]\$ '   

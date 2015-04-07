@@ -1,2 +1,6 @@
-## My dot files, scroungin the net. 
-#
+## My dot files 
+# I download this and run the install.sh.
+This picks up the install.shs script file in all directories in the repo and exectues them. 
+The result being aliases and rc files updated for your shell. 
+
+
